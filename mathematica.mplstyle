@@ -1,0 +1,20 @@
+text.color: #5b6771
+figure.facecolor: #f5f1e8
+figure.edgecolor: none
+figure.dpi: 300
+grid.color: #9fa2a9
+grid.linestyle: :
+grid.linewidth: 1.0
+axes.facecolor: #f5f1e8
+axes.edgecolor: none
+axes.labelcolor: #5b6771
+xtick.color: #5b6771
+xtick.labelsize: small
+ytick.color: #5b6771
+ytick.labelsize: small
+legend.framealpha: 1.0
+legend.fontsize: small
+
+font.family: sans-serif
+font.sans-serif: Montserrat, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+font.serif: Zilla Slab, DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
