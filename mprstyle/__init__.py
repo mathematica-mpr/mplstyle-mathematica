@@ -16,8 +16,11 @@ MPR_COLORS = {
     "beige": "#E0D4B5",
     "grey": "#5B6771",
     "gray": "#5B6771",
-    "black": "#000000",
-    "white": "#ffffff",
+    "violet": "#5c4377", # not official
+    "purple": "#5c4377", # not official
+    "brown": "#753726", # not official
+    "black": "#000000", # not official
+    "white": "#ffffff", # not official
 }
 
 MPR_COLORS_75 = {
@@ -33,8 +36,11 @@ MPR_COLORS_75 = {
     "beige": "#e7ddc6",
     "grey": "#7b818a",
     "gray": "#7b818a",
-    "black": "#bdbdbd",
-    "white": "#ffffff",
+    "violet": "#857299", # not official
+    "purple": "#857299", # not official
+    "brown": "#98695c", # not official
+    "black": "#bdbdbd", # not official
+    "white": "#ffffff", # not official
 }
 
 MPR_COLORS_50 = {
@@ -50,8 +56,11 @@ MPR_COLORS_50 = {
     "beige": "#eee7d6",
     "grey": "#9fa2a9",
     "gray": "#9fa2a9",
-    "black": "#7e7e7e",
-    "white": "#ffffff",
+    "violet": "#ada1bb", # not official
+    "purple": "#ada1bb", # not official
+    "brown": "#ba9b92", # not official
+    "black": "#7e7e7e", # not official
+    "white": "#ffffff", # not official
 }
 
 MPR_COLORS_25 = {
@@ -67,12 +76,15 @@ MPR_COLORS_25 = {
     "beige": "#f5f1e8",
     "grey": "#c8c9cc",
     "gray": "#c8c9cc",
-    "black": "#3f3f3f",
-    "white": "#ffffff",
+    "violet": "#d6d0dd", # not official
+    "purple": "#d6d0dd", # not official
+    "brown": "#dccdc9", # not official
+    "black": "#3f3f3f", # not official
+    "white": "#ffffff", # not official
 }
 
 def apply(style="default"):
-    sns.set(font="Montserrat", palette=[MPR_COLORS[x] for x in ["green", "gold", "blue", "red", "teal", "lime", "beige", "grey", "black"]])  # , style="ticks")
+    sns.set(font="Montserrat", palette=[MPR_COLORS[x] for x in ["green", "gold", "blue", "red", "teal", "lime", "beige", "grey", "violet", "brown", "black"]])  # , style="ticks")
 
     mpl.rc("text", color=MPR_COLORS["grey"])
     mpl.rc("figure", facecolor=MPR_COLORS_25["beige"], edgecolor="none", dpi=300)
