@@ -64,7 +64,8 @@ MPR_COLORS_25 = {
 }
 
 def apply(style="default"):
-    sns.set(font="Montserrat", palette=MPR_COLORS)  # , style="ticks")
+    sns.set(font="Montserrat", palette=[MPR_COLORS[x] for x in ["green", "gold", "blue", "red", "teal", "lime", "beige", "grey", "black"]])  # , style="ticks")
+
     mpl.rc("text", color=MPR_COLORS["grey"])
     mpl.rc("figure", facecolor=MPR_COLORS_25["beige"], edgecolor="none", dpi=300)
     mpl.rc("grid", color=MPR_COLORS_50["grey"], linestyle=":", linewidth=1.0)

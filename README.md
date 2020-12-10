@@ -17,11 +17,12 @@ Apply the style to `matplotlib` and `seaborn` plots by importing the `mprstyle` 
 ```
 import mprstyle
 import matplotlib.pyplot as plt
+import math
 
 mprstyle.apply("default")  # or "508"
 
 f, a = plt.subplots()
-x = list(range(0, 6, 0.01))
+x = [_ * 6.28 / 1000 for _ in range(0, 1000)]
 y1 = [sin(_) for _ in x]
 y2 = [cos(_) for _ in x]
 a.plot(x, y1, x, y2)
