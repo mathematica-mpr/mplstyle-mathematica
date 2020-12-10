@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib as mpl
 import matplotlib.ticker as mtick
 import matplotlib.dates as mdates
 import seaborn as sns
@@ -65,12 +65,12 @@ MPR_COLORS_25 = {
 
 def apply(style="default"):
     sns.set(font="Montserrat", palette=MPR_COLORS)  # , style="ticks")
-    mpl.rc("text", color=MPR_GREY)
-    mpl.rc("figure", facecolor=MPR_BEIGE_25, edgecolor="none", dpi=300)
-    mpl.rc("grid", color=MPR_GREY_50, linestyle=":", linewidth=1.0)
-    mpl.rc("axes", facecolor=MPR_BEIGE_25, edgecolor="none", labelcolor=MPR_GREY)
-    mpl.rc("xtick", color=MPR_GREY, labelsize="small")
-    mpl.rc("ytick", color=MPR_GREY, labelsize="small")
+    mpl.rc("text", color=MPR_COLORS["grey"])
+    mpl.rc("figure", facecolor=MPR_COLORS_25["beige"], edgecolor="none", dpi=300)
+    mpl.rc("grid", color=MPR_COLORS_50["grey"], linestyle=":", linewidth=1.0)
+    mpl.rc("axes", facecolor=MPR_COLORS_25["beige"], edgecolor="none", labelcolor=MPR_COLORS["grey"])
+    mpl.rc("xtick", color=MPR_COLORS["grey"], labelsize="small")
+    mpl.rc("ytick", color=MPR_GRMPR_COLORS["grey"]EY, labelsize="small")
     mpl.rc("legend", framealpha=1.0, fontsize="small")
 
 # AXIS_FONT = {"fontname": "Montserrat"}
