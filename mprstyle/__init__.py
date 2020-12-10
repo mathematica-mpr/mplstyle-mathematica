@@ -70,7 +70,7 @@ def apply(style="default"):
     mpl.rc("grid", color=MPR_COLORS_50["grey"], linestyle=":", linewidth=1.0)
     mpl.rc("axes", facecolor=MPR_COLORS_25["beige"], edgecolor="none", labelcolor=MPR_COLORS["grey"])
     mpl.rc("xtick", color=MPR_COLORS["grey"], labelsize="small")
-    mpl.rc("ytick", color=MPR_GRMPR_COLORS["grey"]EY, labelsize="small")
+    mpl.rc("ytick", color=MPR_COLORS["grey"], labelsize="small")
     mpl.rc("legend", framealpha=1.0, fontsize="small")
 
 # AXIS_FONT = {"fontname": "Montserrat"}
