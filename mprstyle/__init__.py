@@ -16,6 +16,8 @@ MPR_COLORS = {
     "beige": "#E0D4B5",
     "grey": "#5B6771",
     "gray": "#5B6771",
+    "black": "#000000",
+    "white": "#ffffff",
 }
 
 MPR_COLORS_75 = {
@@ -30,7 +32,9 @@ MPR_COLORS_75 = {
     "light green": "#6ab790",
     "beige": "#e7ddc6",
     "grey": "#7b818a",
-    "gray": "#7b818a", 
+    "gray": "#7b818a",
+    "black": "#bdbdbd",
+    "white": "#ffffff",
 }
 
 MPR_COLORS_50 = {
@@ -45,7 +49,9 @@ MPR_COLORS_50 = {
     "light green": "#9ccab0",
     "beige": "#eee7d6",
     "grey": "#9fa2a9",
-    "gray": "#9fa2a9", 
+    "gray": "#9fa2a9",
+    "black": "#7e7e7e",
+    "white": "#ffffff",
 }
 
 MPR_COLORS_25 = {
@@ -60,7 +66,9 @@ MPR_COLORS_25 = {
     "light green": "#cbe2d3",
     "beige": "#f5f1e8",
     "grey": "#c8c9cc",
-    "gray": "#c8c9cc", 
+    "gray": "#c8c9cc",
+    "black": "#3f3f3f",
+    "white": "#ffffff",
 }
 
 def apply(style="default"):
