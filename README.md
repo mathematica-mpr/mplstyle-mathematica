@@ -9,11 +9,11 @@ Mathematica has an ever-evolving brand guide for publications, presentations, an
 ## Installation
 Install this package directly from github using `pipenv`:
 ```
-$ pipenv install -e "git+https://github.com/user/repo.git@branch_or_tag#egg=mprstyle"
+$ pipenv install -e "git+https://github.com/mathematica-mpr/mplstyle-mathematica@0.0.1#egg=mplstyle-mathematica"
 ```
 
 ## Usage
-Apply the style to `matplotlib` and `seaborn` plots:
+Apply the style to `matplotlib` and `seaborn` plots by importing the `mprstyle` module and calling `apply()`:
 ```
 import mprstyle
 import matplotlib.pyplot as plt
