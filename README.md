@@ -9,7 +9,7 @@ Mathematica has an ever-evolving brand guide for publications, presentations, an
 ## Installation
 Install this package directly from github using `pipenv`:
 ```
-$ pipenv install -e "git+https://github.com/mathematica-mpr/mplstyle-mathematica@0.0.1#egg=mplstyle-mathematica"
+$ pipenv install -e "git+https://github.com/mathematica-mpr/mplstyle-mathematica@v0.0.1#egg=mplstyle-mathematica"
 ```
 
 ## Usage
