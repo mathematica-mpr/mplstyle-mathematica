@@ -35,3 +35,5 @@ f.show()
  * Add `with` style functionality.
  * Document fonts.
  * Document helper functions.
+ * Add logos and logo methods.
+ * Offload styles to configuration file.
